@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap-demo</title>
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="icon" href="images/favicon.jpg">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+  </head>
+  <body>
+    <div class="container mt-5">
+
+      <h1 class="bg-info p-2 border rounded-2 text-center">More complex layouts can also be created with the grid system.</h1>
+      <div class="row g-3 mt-5 bg-info-subtle">
+          <div class="col-lg-6">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" name="email" class="form-control" id="email" placeholder=""required>
+          </div>
+         <div class="col-lg-6">
+          <label for="passward" class="form-label">Passward</label>
+          <input type="passward" name="passward" class="form-control" id="passward" placeholder=""required>
+          </div>
+          <div class="col-lg-12">
+          <label for="address" class="form-label">Address</label>
+          <input type="text" name="address" class="form-control" id="address" placeholder="Enter your address"required>
+          </div>
+          <div class="col-lg-12">
+          <label for="address" class="form-label">Address</label>
+          <input type="text" name="address" class="form-control" id="address" placeholder="Enter your address"required>
+          </div>
+           <div class="col-lg-6">
+          <label for="city" class="form-label">City</label>
+          <input type="text" name="address" class="form-control" id="address" placeholder="Enter your address"required>
+          </div>
+           <div class="col-lg-4">
+          <label for="State" class="form-label">State</label>
+          <select class="form-select" id="inputstate">
+            <option selected>Red-Car</option>
+             <option>White-Car</option>
+              <option>Blue-Car</option>
+               <option>Yellow-Car</option>
+                <option>Green-Car</option>
+                 <option>Black-Car</option>
+                  <option>Chose-your-car</option>
+
+          </select>
+          </div>
+           <div class="col-lg-2">
+          <label for="zip" class="form-label">Zip</label>
+          <input type="text" name="zip" class="form-control" id="zip" placeholder="" required>
+          </div>
+           <div class="col-lg-12">
+          <div class="form-check">
+          <input type="checkbox" class="form-check-input">
+          <label for="check" class="form-check-label">Check me out</label>
+          </div>
+            </div>
+             <div class="col-lg-12">
+              <button type="submit" class="btn btn-primary">sign in</button>
+        
+          </div>
+          </div>
+           <h1 class="bg-info p-2 mt-5 border rounded-2 text-center">Form grid</h1>
+         <div>
+        <div class="mb-3 mt-5">
+            <label for="formGroupExampleInput" class="form-label">Example label</label>
+           <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+          </div>
+          <div class="mb-3">
+          <label for="formGroupExampleInput2" class="form-label">Another label</label>
+         <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+           </div>
+         </div>
+          <h1 class="bg-info p-2 border mt-5 rounded-2 text-center">Gutters</h1>
+         <div class="row mt-5">
+      <div class="col">
+       <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+      </div>
+      <div class="col">
+      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+      </div>
+        </div>
+        <h1 class="bg-info p-2 border mt-5 rounded-2 text-center">Horizontal form </h1>
+        <form>
+  <div class="row mb-3">
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3">
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3">
+    </div>
+  </div>
+  <fieldset class="row mb-3">
+    <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+    <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+        <label class="form-check-label" for="gridRadios1">
+          First radio
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+        <label class="form-check-label" for="gridRadios2">
+          Second radio
+        </label>
+      </div>
+      <div class="form-check disabled">
+        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+        <label class="form-check-label" for="gridRadios3">
+          Third disabled radio
+        </label>
+      </div>
+    </div>
+  </fieldset>
+  <div class="row mb-3">
+    <div class="col-sm-10 offset-sm-2">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck1">
+        <label class="form-check-label" for="gridCheck1">
+          Example checkbox
+        </label>
+      </div>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Sign in</button>
+</form>
+ <h1 class="bg-info p-2 border mt-5 mb-3 rounded-2 text-center">Horizontal form label sizing</h1>
+ <div class="row mb-3">
+  <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Email</label>
+  <div class="col-sm-10">
+    <input type="email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="col-form-label-sm">
+  </div>
+</div>
+<div class="row mb-3">
+  <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
+  <div class="col-sm-10">
+    <input type="email" class="form-control" id="colFormLabel" placeholder="col-form-label">
+  </div>
+</div>
+<div class="row">
+  <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Email</label>
+  <div class="col-sm-10">
+    <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="col-form-label-lg">
+  </div>
+</div>
+<h1 class="bg-info p-2 border mt-5 mb-3 rounded-2 text-center">Column sizing </h1>
+<div class="row g-3">
+  <div class="col-sm-7">
+    <input type="text" class="form-control" placeholder="City" aria-label="City">
+  </div>
+  <div class="col-sm">
+    <input type="text" class="form-control" placeholder="State" aria-label="State">
+  </div>
+  <div class="col-sm">
+    <input type="text" class="form-control" placeholder="Zip" aria-label="Zip">
+  </div>
+</div>
+<h1 class="bg-info p-2 border mt-5 mb-3 rounded-2 text-center">Auto-sizing</h1>
+<form class="row gy-5 align-items-center">
+  <div class="col-sm-3">
+    <label class="visually-hidden" for="specificSizeInputName">Name</label>
+    <input type="text" class="form-control" id="specificSizeInputName" placeholder="Jane Doe">
+  </div>
+  <div class="col-sm-3">
+    <label class="visually-hidden" for="specificSizeInputGroupUsername">Username</label>
+    <div class="input-group">
+      <div class="input-group-text">@</div>
+      <input type="text" class="form-control" id="specificSizeInputGroupUsername" placeholder="Username">
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <label class="visually-hidden" for="specificSizeSelect">Preference</label>
+    <select class="form-select" id="specificSizeSelect">
+      <option selected>Choose...</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
+  </div>
+  <div class="col-auto">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
+      <label class="form-check-label" for="autoSizingCheck2">
+        Remember me
+      </label>
+    </div>
+  </div>
+  <div class="col-auto">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
+<h1 class="bg-info p-2 border mt-5 mb-3 rounded-2 text-center">Validation-Server-side</h1>
+<form class="row g-3">
+  <div class="col-md-4">
+    <label for="validationServer01" class="form-label">First name</label>
+    <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationServer02" class="form-label">Last name</label>
+    <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationServerUsername" class="form-label">Username</label>
+    <div class="input-group has-validation">
+      <span class="input-group-text" id="inputGroupPrepend3">@</span>
+      <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+      <div id="validationServerUsernameFeedback" class="invalid-feedback">
+        Please choose a username.
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label for="validationServer03" class="form-label">City</label>
+    <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+    <div id="validationServer03Feedback" class="invalid-feedback">
+      Please provide a valid city.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationServer04" class="form-label">State</label>
+    <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+      <option selected disabled value="">Choose...</option>
+      <option>...</option>
+    </select>
+    <div id="validationServer04Feedback" class="invalid-feedback">
+      Please select a valid state.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationServer05" class="form-label">Zip</label>
+    <input type="text" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" required>
+    <div id="validationServer05Feedback" class="invalid-feedback">
+      Please provide a valid zip.
+    </div>
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+      <label class="form-check-label" for="invalidCheck3">
+        Agree to terms and conditions
+      </label>
+      <div id="invalidCheck3Feedback" class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>
+
+      </div>
+
+  
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
